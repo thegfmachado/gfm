@@ -46,7 +46,7 @@ export async function generateMetadata(props: LocaleLayoutProps): Promise<Metada
     openGraph: {
       title: translate("metadata.title"),
       description: translate("metadata.description"),
-      images: ['/images/profile.png'],
+      images: 'https://iili.io/2ex49zF.png',
       type: "website",
     },
 

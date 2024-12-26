@@ -1,6 +1,6 @@
 
 export default function Projects() {
   return (
-   <span>Projects</span>
+    <span>Building... ⛏️ 🧱 🚧</span>
   );
 }

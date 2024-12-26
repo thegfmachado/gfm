@@ -1,6 +1,6 @@
 
 export default function Feedbacks() {
   return (
-   <span>Feedbacks</span>
+    <span>Building... ⛏️ 🧱 🚧</span>
   );
 }

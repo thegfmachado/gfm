@@ -37,8 +37,8 @@ export default function Experience({
         </div>
 
         <div>
-          <h2 className="text-2xl font-bold">{company}</h2>
-          <h4 className="text-lg font-semibold">
+          <h2 className="text-xl sm:text-2xl font-bold">{company}</h2>
+          <h4 className="sm:text-lg font-semibold">
             {startDate} - {endDate}
           </h4>
         </div>
@@ -59,14 +59,14 @@ export default function Experience({
 
             <div>
               <div>
-                <h3 className="text-xl font-bold">{role.title}</h3>
+                <h3 className="text-lg sm:text-xl font-bold">{role.title}</h3>
                 {roles.length > 1 && (
-                  <h4 className="text-lg font-semibold">
+                  <h4 className="sm:text-lg font-semibold">
                     {role.startDate} - {role.endDate}
                   </h4>
                 )}
               </div>
-              <div>{role.description}</div>
+              <div className="text-sm sm:text-base">{role.description}</div>
             </div>
           </div>
         ))}

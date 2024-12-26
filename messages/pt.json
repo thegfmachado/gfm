@@ -21,18 +21,27 @@
   "about": {
     "me": {
       "title": "Sobre mim",
-      "description": "Sou um desenvolvedor sênior entusiasmado em criar soluções web inovadoras e funcionais. Estou sempre em busca de desafios que possam transformar ideias em projetos reais e impactantes."
+      "description": "Sou um desenvolvedor que gosta de criar soluções web funcionais e eficazes. Procuro desafios que possibilitem transformar ideias em projetos concretos e úteis, enquanto aprimoro minhas habilidades e aprendo novas ferramentas e tecnologias. Nas horas vagas, gosto de jogar videogame, assistir séries e filmes, sair e tocar guitarra.",
+      "funFact": "Curiosidade: Pergunte me qualquer coisa sobre Skyrim ou Elden Ring e eu provavelmente saberei responder 🧙‍♂️🎮.",
+      "birthday": "28/07/1999"
+    },
+    "skills": {
+      "title": "Habilidades",
+      "core": "Essenciais",
+      "frameworks": "Frameworks & Bibliotecas",
+      "databases": "Bancos de Dados",
+      "tools": "Ferramentas"
     },
     "education": {
       "title": "Formação Acadêmica",
       "unip": {
-        "course": "Tecnólogo em Análise e Desenvolvimento de Sistemas.",
+        "course": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
         "description": "<list><item>Fundamentos de Programação;</item><item>Análise de Sistemas Orientada a Objetos;</item><item>Bancos de Dados;</item><item>Programação Web;</item><item>Engenharia de Software;</item><item>Outros.</item></list>",
         "startDate": "Janeiro 2018",
         "endDate": "Dezembro 2019"
       },
       "senai": {
-        "course": "Curso Técnico em Tecnologia da Informação.",
+        "course": "Curso Técnico em Tecnologia da Informação",
         "description": "<list><item>Algoritmos;</item><item>Interfaces Web;</item><item>Bancos de Dados;</item><item>Programação Orientada a Objetos;</item><item>Programação Web;</item><item>Programação para Dispositivos Móveis.</item></list>",
         "startDate": "Janeiro 2015",
         "endDate": "Dezembro 2016"

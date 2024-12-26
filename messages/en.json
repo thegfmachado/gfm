@@ -21,7 +21,16 @@
   "about": {
     "me": {
       "title": "About me",
-      "description": "I am a senior developer enthusiastic about creating innovative and functional web solutions. I am always looking for challenges that can transform ideas into real and impactful projects."
+      "description": "I am a developer who enjoys creating functional and effective web solutions. I seek challenges that allow me to transform ideas into concrete and useful projects while improving my skills and learning new tools and technologies. In my free time, I enjoy playing video games, watching series and movies, going out, and playing guitar.",
+      "funFact": "Fun fact: Ask me anything about Skyrim or Elden Ring and I will probably know the answer 🧙‍♂️🎮.",
+      "birthday": "July 28, 1999"
+    },
+    "skills": {
+      "title": "My tech stack",
+      "core": "Core",
+      "frameworks": "Frameworks & Libraries",
+      "databases": "Databases",
+      "tools": "Tools"
     },
     "education": {
       "title": "Academic background",
