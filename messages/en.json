@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "title": "Gabriel Machado | Portfolio",
+    "description": "Explore the portfolio of Gabriel Machado, senior developer."
+  },
+  "general": {
+    "hero": {
+      "title": {
+        "firstLine": "Hi 👋,",
+        "secondLine": "My name is",
+        "thirdLine": "Since 2018 turning coffee into code."
+      }
+    },
+    "tabs": {
+      "about": "About",
+      "experiences": "Experiences",
+      "projects": "Projects",
+      "feedbacks": "Feedbacks"
+    }
+  },
+  "about": {
+    "me": {
+      "title": "About me",
+      "description": "I am a senior developer enthusiastic about creating innovative and functional web solutions. I am always looking for challenges that can transform ideas into real and impactful projects."
+    },
+    "education": {
+      "title": "Academic background",
+      "unip": {
+        "course": "Associate's degree in system analysis and development.",
+        "description": "<list><item>Programming Fundamentals;</item><item>Object-Oriented Systems Analysis;</item><item>Databases;</item><item>Web Programming;</item><item>Software Engineering;</item><item>Others.</item></list>",
+        "startDate": "January 2018",
+        "endDate": "December 2019"
+      },
+      "senai": {
+        "course": "Information technology technical course.",
+        "description": "<list><item>Algorithms;</item><item>Web Interfaces;</item><item>Databases;</item><item>Object-Oriented Programming;</item><item>Web Programming;</item><item>Mobile Device Programming.</item></list>",
+        "startDate": "January 2015",
+        "endDate": "December 2016"
+      }
+    }
+  }
+}

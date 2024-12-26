@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "title": "Gabriel Machado | Portfólio",
+    "description": "Conheça o portfólio de Gabriel Machado, desenvolvedor sênior."
+  },
+  "general": {
+    "hero": {
+      "title": {
+        "firstLine": "Olá 👋,",
+        "secondLine": "Meu nome é",
+        "thirdLine": "Desde 2018 transformando café em código."
+      }
+    },
+    "tabs": {
+      "about": "Sobre",
+      "experiences": "Experiências",
+      "projects": "Projetos",
+      "feedbacks": "Feedbacks"
+    }
+  },
+  "about": {
+    "me": {
+      "title": "Sobre mim",
+      "description": "Sou um desenvolvedor sênior entusiasmado em criar soluções web inovadoras e funcionais. Estou sempre em busca de desafios que possam transformar ideias em projetos reais e impactantes."
+    },
+    "education": {
+      "title": "Formação Acadêmica",
+      "unip": {
+        "course": "Tecnólogo em Análise e Desenvolvimento de Sistemas.",
+        "description": "<list><item>Fundamentos de Programação;</item><item>Análise de Sistemas Orientada a Objetos;</item><item>Bancos de Dados;</item><item>Programação Web;</item><item>Engenharia de Software;</item><item>Outros.</item></list>",
+        "startDate": "Janeiro 2018",
+        "endDate": "Dezembro 2019"
+      },
+      "senai": {
+        "course": "Curso Técnico em Tecnologia da Informação.",
+        "description": "<list><item>Algoritmos;</item><item>Interfaces Web;</item><item>Bancos de Dados;</item><item>Programação Orientada a Objetos;</item><item>Programação Web;</item><item>Programação para Dispositivos Móveis.</item></list>",
+        "startDate": "Janeiro 2015",
+        "endDate": "Dezembro 2016"
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import * as React from 'react';
 
 type TypewriterProps = {
   words: string[];
@@ -9,14 +9,16 @@ type TypewriterProps = {
 export function Typewriter(props: TypewriterProps) {
   const { words } = props;
 
-  const [currentWord, setCurrentWord] = useState("");
-  const [wordIndex, setWordIndex] = useState(0);
-  const [charIndex, setCharIndex] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [isPaused, setIsPaused] = useState(false);
+  const [currentWord, setCurrentWord] = React.useState("");
+  const [wordIndex, setWordIndex] = React.useState(0);
+  const [charIndex, setCharIndex] = React.useState(0);
+  const [isDeleting, setIsDeleting] = React.useState(false);
+  const [isPaused, setIsPaused] = React.useState(false);
 
-  useEffect(() => {
-    if (isPaused) return;
+  React.useEffect(() => {
+    if (isPaused) {
+      return;
+    };
 
     const type = () => {
       const currentWordText = words[wordIndex];
@@ -46,5 +48,5 @@ export function Typewriter(props: TypewriterProps) {
     return () => clearTimeout(timer);
   }, [charIndex, isDeleting, isPaused, wordIndex, words]);
 
-  return <span className="block min-h-10">{currentWord}</span>;
+  return <span className="block min-h-10 min-w-10">{currentWord}</span>;
 }
