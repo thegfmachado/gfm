@@ -97,5 +97,22 @@
         }
       }
     }
+  },
+  "projects": {
+    "title": "Projetos",
+    "lofiDino": {
+      "title": "Lo-fi Dino",
+      "description": "É uma aplicação que permite reproduzir qualquer vídeo do YouTube enquanto adiciona efeitos sonoros ambientes, como chuva, pássaros, trânsito e muito mais. Perfeita para complementar sua experiência lofi ou criar a paisagem sonora ideal para foco, relaxamento ou estudo.<br></br><br></br>Esse projeto foi feito em React.js + Vite.js utilizando a daisyUI como biblioteca de componentes e o Tailwind CSS para estilização."
+    },
+    "whatDoesTheFoxHad": {
+      "title": "What does the fox had?",
+      "description": "Este projeto foi desenvolvido como parte de um estudo prático sobre raspagem de dados (web scraping), com o objetivo de consolidar os conhecimentos adquiridos por meio de uma implementação ágil e funcional. A aplicação atua como um bulário eletrônico, oferecendo uma solução simples e eficaz para consultar informações sobre medicamentos, utilizando o nome presente na embalagem. O sistema centraliza os resultados de maneira rápida e intuitiva, proporcionando uma experiência de busca eficiente e completa.<br></br><br></br> Ao realizar uma pesquisa, o usuário interage com a API Routes do Next.js, que faz uma requisição ao backend. O backend consulta as fontes de dados, incluindo a API da ANVISA, que fornece informações diretamente de seu portal oficial, além de outros portais como D'or Mais Saúde e Consulta Remédios. Esses portais retornam os dados necessários, que são então processados com a biblioteca Cheerio para extrair as informações relevantes. Após o processamento, os dados estruturados são enviados ao frontend e exibidos de forma organizada ao usuário."
+    },
+    "gfm": {
+      "title": "Meu Website",
+      "description": "A proposta deste projeto é centralizar e apresentar o meu portfólio de forma organizada. No front-end, utilizei o Next.js 15 em conjunto com Shadcn/UI para uma interface moderna e responsiva. No back-end, optei pelas API Routes do Next.js, integradas ao Prisma, com um banco de dados PostgreSQL para armazenar os feedbacks dos usuários. Além disso, implementei a internacionalização do site, aproveitando as rotas do Next.js para oferecer suporte a múltiplos idiomas."
+    },
+    "repo": "Repositório",
+    "website": "Site"
   }
 }

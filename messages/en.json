@@ -97,5 +97,22 @@
         }
       }
     }
+  },
+  "projects": {
+    "title": "Projects",
+    "lofiDino": {
+      "title": "Lo-fi Dino",
+      "description": "It is an application that lets you play any YouTube video while adding ambient sound effects, such as rain, birds, traffic, and more. Perfect for complementing your lofi experience or creating the ideal soundscape for focus, relaxation, or study.<br></br><br></br>This project was built with React.js + Vite.js using daisyUI as a component library and Tailwind CSS for styling."
+    },
+    "whatDoesTheFoxHad": {
+      "title": "What does the fox had?",
+      "description": "This project was developed as part of a practical study on web scraping, with the goal of consolidating the knowledge acquired through an agile and functional implementation. The application functions as an electronic medicine guide, offering a simple and effective solution to search for information about medications using the name on the packaging. The system centralizes the results in a quick and intuitive way, providing an efficient and complete search experience.<br></br><br></br>When performing a search, the user interacts with Next.js API Routes, which makes a request to the backend. The backend queries data sources, including the ANVISA API, which provides information directly from its official portal, as well as other portals such as D'or Mais Saúde and Consulta Remédios. These portals return the necessary data, which is then processed using the Cheerio library to extract the relevant information. After processing, the structured data is sent to the frontend and displayed in an organized manner to the user."
+    },
+    "gfm": {
+      "title": "My Website",
+      "description": "The purpose of this project is to centralize and present my portfolio in an organized manner. On the front-end, I used Next.js 15 along with Shadcn/UI for a modern and responsive interface. On the back-end, I opted for Next.js API Routes, integrated with Prisma and a PostgreSQL database to store user feedback. Additionally, I implemented website internationalization, taking advantage of Next.js routes to offer support for multiple languages."
+    },
+    "repo": "Repository",
+    "website": "Website"
   }
 }
