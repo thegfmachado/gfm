@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
-import Link from "next/link";
 import { notFound } from 'next/navigation';
 import { Inter, Handjet } from 'next/font/google'
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 
 import { Separator } from "@/components/ui/separator";
+import { TabManager } from "@/components/tab-manager";
 import { Header } from '@/components/header';
 import { Hero } from '@/components/hero';
-import { TabManager } from "@/components/tab-manager";
+import { Footer } from "@/components/footer";
 
 import { supportedLocales } from '@/i18n/routing';
 import type { StaticPageProps } from "@/types/page";
@@ -59,8 +59,6 @@ export async function generateMetadata(props: LocaleLayoutProps): Promise<Metada
   };
 }
 
-const year = new Date().getFullYear();
-
 export default async function LocaleLayout(props: LocaleLayoutProps) {
   const { children, params } = props;
   const { locale } = await params;
@@ -90,23 +88,7 @@ export default async function LocaleLayout(props: LocaleLayoutProps) {
                 <Separator className="mt-10" orientation="horizontal" />
                 <TabManager>{children}</TabManager>
               </main >
-              <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-                <div className="flex flex-col justify-center items-center gap-4 mb-2">
-                  <div>
-                    Made with <span>❤️</span> and <span>☕</span>
-                  </div>
-                  <div className="flex h-6 items-center space-x-4">
-                    <Link
-                      className="flex justify-center items-center gap-2 text-lg font-handjet hover:font-bold hover:text-violet-600 active:text-violet-700"
-                      href="https://github.com/thegfmachado"
-                      target="_blank"
-                    >{`<gfm />`}
-                    </Link>
-                    <Separator orientation="vertical" />
-                    <span>© {year}</span>
-                  </div>
-                </div>
-              </footer>
+              <Footer />
             </div>
           </NextIntlClientProvider>
         </ThemeProvider>

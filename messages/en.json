@@ -47,5 +47,55 @@
         "endDate": "December 2016"
       }
     }
+  },
+  "experiences": {
+    "title": "Experiences",
+    "philips": {
+      "company": "Philips",
+      "startDate": "December 2021",
+      "endDate": "Present",
+      "roles": {
+        "senior": {
+          "title": "Senior Software Developer",
+          "description": "<list><item>Served as a code owner in the development and maintenance of a WYSIWYG editor/framework based on React, TypeScript, and SASS/CSS, ensuring technical quality and providing support to other developers via Philips' Stack Enterprise;</item> <item>Developed a telemedicine SaaS used by hospitals, covering database (PostgreSQL), backend (Node.js), frontend (React), and integration with the Twilio API;</item> <item>Developed the new EMR design system at Philips, which serves as the foundation for various products, including the Tasy system;</item> <item>Responsible for the table component in the design system, achieving high performance with TanStack Table and advanced optimizations in React;</item> <item>Implemented automated tests (UI with Playwright and unit tests with Jest) in all projects;</item> <item>Conducted code reviews and participated in strategic technical decision-making.</item></list>"
+        }
+      }
+    },
+    "meta": {
+      "company": "Meta",
+      "startDate": "May 2021",
+      "endDate": "December 2021",
+      "roles": {
+        "middle": {
+          "title": "Mid-level Front-End Developer",
+          "description": "<list><item>Worked as a contracted developer providing services to Philips in the development and maintenance of a WYSIWYG editor/framework based on React, TypeScript, and SASS/CSS;</item> <item>Created features and provided ongoing support to ensure that other Philips development teams could use the editor, reducing development time for products;</item> <item>Provided a library of configurable components, each with APIs and custom events for flexible and efficient integration;</item> <item>Collaborated with Philips' internal teams to ensure that components met the specific needs of various projects, allowing for custom actions based on events and requirements.</item></list>"
+        }
+      }
+    },
+    "classSolutions": {
+      "company": "Class Solutions",
+      "startDate": "December 2018",
+      "endDate": "May 2021",
+      "roles": {
+        "middle": {
+          "title": "Mid-level Front-End Developer",
+          "startDate": "January 2021",
+          "endDate": "May 2021",
+          "description": "<list><item>Delivered customized SharePoint systems using TypeScript, SASS, and frameworks like React and AngularJS;</item><item>Created internal libraries and reusable components to optimize productivity;</item><item>Automated processes in SharePoint, including the deployment of WSP packages;</item><item>Developed modern Web Parts using React;</item><item>Reviewed and developed technical tests for front-end candidates.</item><item>Conducted code reviews to ensure code quality.</item></list>"
+        },
+        "junior": {
+          "title": "Junior Front-End Developer",
+          "startDate": "January 2020",
+          "endDate": "January 2021",
+          "description": "<list><item>Developed internal systems in SharePoint using modern technologies like React and TypeScript;</item><item>Provided support and created reusable libraries for projects;</item><item>Implemented automations in SharePoint and assisted with deployments;</item><item>Collaborated in creating Web Parts with React;</item></list>"
+        },
+        "intern": {
+          "title": "Software Development Intern",
+          "startDate": "December 2018",
+          "endDate": "January 2020",
+          "description": "Learned and applied programming and web development concepts in internal projects."
+        }
+      }
+    }
   }
 }

@@ -6,11 +6,11 @@ import { useTranslations } from 'next-intl';
 import { MapPin, Cake } from 'lucide-react';
 
 import type { ExperienceProps } from '@/components/experience';
-import Experience from '@/components/experience';
+import { Experience } from '@/components/experience';
+import { Separator } from '@/components/ui/separator';
+import { TechStack } from '@/components/about/tech-stack';
 
 import { convertTextToHTML } from '@/utils/translation';
-import { Separator } from '@/components/ui/separator';
-import TechStack from '@/components/about/tech-stack';
 
 export default function Home() {
   const translate = useTranslations("about");

@@ -47,5 +47,55 @@
         "endDate": "Dezembro 2016"
       }
     }
+  },
+  "experiences": {
+    "title": "Experiências",
+    "philips": {
+      "company": "Philips",
+      "startDate": "Dezembro 2021",
+      "endDate": "Presente",
+      "roles": {
+        "senior": {
+          "title": "Desenvolvedor de software sênior",
+          "description": "<list><item>Atuação como code owner no desenvolvimento e manutenção de um editor/framework WYSIWYG baseado em React, Typescript e SASS/CSS, garantindo qualidade técnica e suporte a outros desenvolvedores via Stack Enterprise;</item> <item>Desenvolvimento de um SaaS de teleconsulta utilizado por hospitais, cobrindo banco de dados (PostgreSQL), backend (Node.js), front-end (React) e integração com a API do Twilio;</item> <item>Desenvolvimento do novo design system do EMR da Philips, o qual serve de base para vários produtos, incluindo sistema Tasy;</item> <item>Responsável pelo componente de tabela do design system, alcançando alta performance com TanStack Table e otimizações avançadas em React;</item> <item>Implementação de testes automatizados (UI com Playwright e unitários com Jest) em todos os projetos;</item> <item>Realização de code reviews e participação em decisões técnicas estratégicas.</item></list>"
+        }
+      }
+    },
+    "meta": {
+      "company": "Meta",
+      "startDate": "Maio 2021",
+      "endDate": "Dezembro 2021",
+      "roles": {
+        "middle": {
+          "title": "Desenvolvedor front-end pleno",
+          "description": "<list><item>Atuação como desenvolvedor terceirizado, prestando serviços para a Philips no desenvolvimento e manutenção de um editor/framework WYSIWYG baseado em React, Typescript e SASS/CSS;</item> <item>Criação de funcionalidades e suporte contínuo para que outros times de desenvolvimento da Philips utilizem o editor, reduzindo o tempo de desenvolvimento de produtos;</item> <item>Disponibilização de uma biblioteca de componentes configuráveis, cada um com APIs e eventos personalizados para integração flexível e eficiente;</item> <item>Colaboração com equipes internas da Philips para garantir que os componentes atendam às necessidades específicas de diversos projetos, permitindo ações customizadas baseadas em eventos e requisitos específicos.</item></list>"
+        }
+      }
+    },
+    "classSolutions": {
+      "company": "Class Solutions",
+      "startDate": "Dezembro 2018",
+      "endDate": "Maio 2021",
+      "roles": {
+        "middle": {
+          "title": "Desenvolvedor front-end pleno",
+          "startDate": "Janeiro 2021",
+          "endDate": "Maio 2021",
+          "description": "<list><item>Entrega de sistemas personalizados em SharePoint com TypeScript, SASS e frameworks como React e AngularJS;</item><item>Criação de bibliotecas internas e componentes reutilizáveis para otimizar produtividade;</item><item>Automação de processos no SharePoint, incluindo deploy de pacotes WSP;</item><item>Desenvolvimento de Web Parts modernas utilizando React;</item><item>Revisão e desenvolvimento de testes técnicos para candidatos de front-end.</item><item>Realizei revisões de código para garantir a qualidade do código.</item></list>"
+        },
+        "junior": {
+          "title": "Desenvolvedor front-end júnior",
+          "startDate": "Janeiro 2020",
+          "endDate": "Janeiro 2021",
+          "description": "<list><item>Desenvolvimento de sistemas internos em SharePoint com tecnologias modernas como React e TypeScript;</item><item>Suporte e criação de bibliotecas reutilizáveis para projetos;</item><item>Implementação de automações no SharePoint e suporte em deploys;</item><item>Colaboração na criação de Web Parts com React;</item></list>"
+        },
+        "intern": {
+          "title": "Estagiário em desenvolvimento de software",
+          "startDate": "Dezembro 2018",
+          "endDate": "Janeiro 2020",
+          "description": "Aprendizado e aplicação de conceitos de programação e desenvolvimento web em projetos internos."
+        }
+      }
+    }
   }
 }

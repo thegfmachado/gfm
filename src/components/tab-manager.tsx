@@ -63,7 +63,7 @@ export function TabManager({ children }: TabManagerProps) {
               onClick={() => handleTabChange(option.path)}
             >
               <span
-                className={`border-y-4 h-10 flex items-center border-y-transparent ${selected && "border-b-blue-500"}`}
+                className={`border-y-4 h-10 flex items-center border-y-transparent ${selected && "border-b-indigo-500"}`}
               >
                 {option.label}
               </span>

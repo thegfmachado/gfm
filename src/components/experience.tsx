@@ -15,7 +15,7 @@ export interface ExperienceProps {
   }[];
 }
 
-export default function Experience({
+export function Experience({
   company,
   logo,
   startDate,
@@ -49,11 +49,11 @@ export default function Experience({
           <div key={role.title} className="flex gap-4">
             <div className="mt-2 flex flex-col items-center gap-1 min-w-14">
               {roles.length > 1 && (
-                <div className="w-4 h-4 rounded-full bg-line" />
+                <div className="w-4 h-4 rounded-full bg-indigo-500" />
               )}
 
               {index !== roles.length - 1 && (
-                <hr className="w-0.5 grow bg-line" />
+                <hr className="w-0.5 grow bg-indigo-500 border-0" />
               )}
             </div>
 
