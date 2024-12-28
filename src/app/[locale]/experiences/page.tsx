@@ -85,11 +85,10 @@ export default function Experiences() {
   return (
     <section className="w-full mt-16">
       <div className="flex flex-col gap-16">
+        <h1 className="font-bold text-2xl sm:text-3xl text-center">
+          {translate("title")}
+        </h1>
         <div className="flex flex-col gap-4">
-          <h1 className="font-bold text-2xl sm:text-3xl text-center">
-            {translate("title")}
-          </h1>
-
           {experiences.map((experience, index) => (
             <div key={experience.company} className="flex flex-col gap-4">
               <Experience {...experience} />
