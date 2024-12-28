@@ -50,28 +50,32 @@ export function TabManager({ children }: TabManagerProps) {
   );
 
   return (
-    <section className="w-full md:w-2/3">
-      <div className="flex">
-        {menuOptions.map((option) => {
-          const selected = currentPath === option.path;
+    <div className="w-full md:w-2/3">
+      <nav className="w-full">
+        <ul className="w-full flex">
+          {menuOptions.map((option) => {
+            const selected = currentPath === option.path;
+            const handleClick = () => handleTabChange(option.path);
 
-          return (
-            <Button
-              key={option.path}
-              variant="ghost"
-              className={`grow p-4 max-sm:px-1 py-0 text-foreground ${selected ? "hover:bg-transparent" : "hover:bg-background"}`}
-              onClick={() => handleTabChange(option.path)}
-            >
-              <span
-                className={`border-y-4 h-10 flex items-center border-y-transparent ${selected && "border-b-indigo-500"}`}
-              >
-                {option.label}
-              </span>
-            </Button>
-          );
-        })}
-      </div>
+            return (
+              <li key={option.path} className="flex grow p-4 max-sm:px-1 py-0">
+                <Button
+                  variant="ghost"
+                  className={`grow rounded-t-xl ${selected ? "hover:bg-transparent" : "hover:bg-background"}`}
+                  onClick={handleClick}
+                >
+                  <span
+                    className={`border-y-4 h-10 flex items-center border-y-transparent ${selected && "border-b-indigo-500"}`}
+                  >
+                    {option.label}
+                  </span>
+                </Button>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
       <div className="py-4">{children}</div>
-    </section>
+    </div>
   );
 }
