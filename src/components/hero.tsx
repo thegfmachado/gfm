@@ -1,6 +1,9 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Typewriter } from "@/components/typewritter";
+"use client"
+
+import Image from "next/image";
 import { useTranslations } from "next-intl";
+
+import { Typewriter } from "@/components/typewritter";
 
 export function Hero() {
   const typewritterWords = ["Gabriel Machado", "Machadex", "<gfmachado />", "<gfm />"];
@@ -22,11 +25,17 @@ export function Hero() {
           {translate('hero.title.thirdLine')}
         </p>
       </div>
-      <div className="p-1 rounded-full bg-gradient-to-t from-blue-500 via-purple-500 to-pink-600">
-        <Avatar className="h-48 w-48 md:h-64 md:w-64">
-          <AvatarImage fetchPriority="high" src="/images/profile.png" alt="@gfmachado" />
-          <AvatarFallback>Gabriel Machado</AvatarFallback>
-        </Avatar>
+      <div className="h-48 w-48 md:h-64 md:w-64 rounded-full bg-gradient-to-t from-blue-500 via-purple-500 to-pink-600">
+        <div className="relative h-48 w-48 md:h-64 md:w-64">
+          <Image
+            className="rounded-full p-1"
+            src="/images/profile.png"
+            alt="Gabriel Machado"
+            fetchPriority="high"
+            quality={100}
+            fill
+          />
+        </div>
       </div>
     </section>
   );
