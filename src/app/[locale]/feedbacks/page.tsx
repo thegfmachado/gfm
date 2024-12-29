@@ -1,6 +1,6 @@
 
 export default function Feedbacks() {
   return (
-    <span>Building... ⛏️ 🧱 🚧</span>
+    <div className="w-full text-2xl p-6 flex items-center justify-center">Building... ⛏️ 🧱 🚧</div>
   );
 }

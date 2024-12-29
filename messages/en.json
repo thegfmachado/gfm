@@ -114,5 +114,10 @@
     },
     "repo": "Repository",
     "website": "Website"
+  },
+  "footer": {
+    "made": "Made by",
+    "with": "with",
+    "and": "and"
   }
 }
