@@ -1,24 +1,31 @@
-import { Separator } from "@radix-ui/react-separator";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+
+import { SocialMedia } from "./social-media";
+import { Separator } from "./ui/separator";
 
 const year = new Date().getFullYear();
 
 export function Footer() {
+  const translate = useTranslations('footer');
+
   return (
-    <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-      <div className="flex flex-col justify-center items-center gap-4 mb-2">
-        <div>
-          Made with <span>❤️</span> and <span>☕</span>
+    <footer className="w-full flex gap-2 flex-wrap items-center justify-center">
+      <div className="w-full flex justify-between items-center">
+        <Link href="/">
+          <div className="font-handjet text-2xl font-extrabold text-[#A7A7A7]">
+            {`<gfm />`}
+          </div>
+        </Link>
+        <SocialMedia gray />
+      </div>
+      <Separator />
+      <div className="w-full flex flex-col-reverse sm:flex-row gap-2 justify-between items-center">
+        <div className="text-center text-[#A7A7A7] text-sm">
+          &copy; {year}
         </div>
-        <div className="flex h-6 items-center space-x-4">
-          <Link
-            className="flex justify-center items-center gap-2 text-lg font-handjet hover:font-bold hover:text-violet-600 active:text-violet-700"
-            href="https://github.com/thegfmachado"
-            target="_blank"
-          >{`<gfm />`}
-          </Link>
-          <Separator orientation="vertical" />
-          <span>© {year}</span>
+        <div className="mt-2 text-center text-[#A7A7A7] text-sm sm:text-base">
+          {translate('made')} <span className="font-extrabold bg-gradient-to-r from-indigo-500 from-0% via-purple-500 via-30% to-pink-500 to-100% bg-clip-text text-transparent">Gabriel Machado</span> {translate('with')} <span>❤️</span> {translate('and')} <span>☕</span>
         </div>
       </div>
     </footer>

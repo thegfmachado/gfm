@@ -81,7 +81,7 @@ export default async function LocaleLayout(props: LocaleLayoutProps) {
           disableTransitionOnChange
         >
           <NextIntlClientProvider messages={messages}>
-            <div className="grid items-center justify-items-center min-h-screen p-6 pb-20 gap-16 sm:p-10 font-inter">
+            <div className="grid items-center justify-items-center min-h-screen p-6 pb-4 gap-16 sm:p-10 font-inter">
               <Header />
               <main className="w-full flex flex-col gap-8 row-start-2 items-center">
                 <Hero />
