@@ -59,7 +59,7 @@ export function TabManager({ children }: TabManagerProps) {
             <Button
               key={option.path}
               variant="ghost"
-              className={`grow rounded-t-xl p-4 max-sm:px-1 py-0 text-foreground ${selected ? "hover:bg-transparent" : "hover:bg-background"}`}
+              className={`grow rounded-t-xl p-4 max-sm:px-1 py-0 ${selected && "hover:!bg-transparent"}`}
               onClick={() => handleTabChange(option.path)}
             >
               <span

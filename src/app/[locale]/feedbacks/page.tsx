@@ -1,6 +1,22 @@
+import { prisma } from "@/db/prisma";
+import type { Feedback as FeedbackType } from "@prisma/client";
 
-export default function Feedbacks() {
+import { FeedbacksWrapper } from "@/components/feedback/feedbacks-wrapper";
+
+async function getFeedbacks(): Promise<FeedbackType[]> {
+  return await prisma.feedback.findMany({
+    where: {
+      active: true,
+    },
+    orderBy: [{ pinned: "desc" }, { createdAt: "asc" }],
+  });
+}
+
+export default async function Feedbacks() {
+  const feedbacks = await getFeedbacks();
+  const mappedFeedbacks = feedbacks.map((item) => ({ ...item, createdAt: new Date(item.createdAt) }));
+
   return (
-    <div className="w-full text-2xl p-6 flex items-center justify-center">Building... ⛏️ 🧱 🚧</div>
+    <FeedbacksWrapper feedbacks={mappedFeedbacks} />
   );
 }

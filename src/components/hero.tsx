@@ -38,6 +38,7 @@ export function Hero() {
             fetchPriority="high"
             quality={100}
             fill
+            sizes="100%"
           />
         </div>
       </div>

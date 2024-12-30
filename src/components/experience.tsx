@@ -25,14 +25,14 @@ export function Experience({
   return (
     <div className="flex flex-col gap-2">
       <div className="flex gap-4 items-center">
-        <div className="rounded-full min-w-14">
+        <div className="grid-element rounded-full min-w-14">
           <Image
+            className="rounded-full w-auto h-auto"
             src={logo}
             priority
             width={56}
             height={56}
             alt={company}
-            className="rounded-full"
           />
         </div>
 

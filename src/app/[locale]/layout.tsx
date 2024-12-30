@@ -10,9 +10,10 @@ import { TabManager } from "@/components/tab-manager";
 import { Header } from '@/components/header';
 import { Hero } from '@/components/hero';
 import { Footer } from "@/components/footer";
+import { Toaster } from "@/components/ui/sonner";
 
-import { supportedLocales } from '@/i18n/routing';
 import type { StaticPageProps } from "@/types/page";
+import { supportedLocales } from "@/i18n/request";
 
 type LocaleLayoutProps = StaticPageProps & {
   children: React.ReactNode;
@@ -90,6 +91,7 @@ export default async function LocaleLayout(props: LocaleLayoutProps) {
               </main >
               <Footer />
             </div>
+            <Toaster />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
