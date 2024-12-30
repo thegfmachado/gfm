@@ -5,11 +5,10 @@
   "scripts": {
     "predev": "start http:localhost:3000",
     "dev": "next dev",
-    "prisma:migrate:deploy": "prisma migrate deploy",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "prisma generate && prisma:migrate:deploy && next build"
+    "vercel-build": "prisma generate && prisma migrate deploy && next build"
   },
   "dependencies": {
     "@hookform/resolvers": "3.9.1",
