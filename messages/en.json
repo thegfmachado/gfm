@@ -115,6 +115,46 @@
     "repo": "Repository",
     "website": "Website"
   },
+  "feedbacks": {
+    "title": "Leave a message!",
+    "cta": "Click here",
+    "form": {
+      "title": "Your opinion matters!",
+      "body": "Leave your feedback about the website. If we have worked together before, feel free to share your experience!",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter your name",
+          "requiredError": "Name is required"
+        },
+        "siteUrl": {
+          "label": "Website URL",
+          "placeholder": "Enter a URL of your site/LinkedIn/GitHub"
+        },
+        "avatarUrl": {
+          "label": "Avatar URL",
+          "placeholder": "Enter the URL of your profile picture"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Leave your message about the website and/or our professional experience together :)",
+          "requiredError": "Message is required"
+        },
+        "successToast": {
+          "title": "Feedback sent!",
+          "description": "Your feedback has been submitted and is pending review. Thank you for contributing!"
+        },
+        "errorToast": {
+          "title": "Error sending feedback!",
+          "description": "There was an issue submitting your feedback. Please try again later."
+        }
+      },
+      "send": "Send feedback",
+      "sending": "Sending..."
+    },
+    "pinned": "Pinned",
+    "optional": "Optional"
+  },
   "footer": {
     "made": "Made by",
     "with": "with",
