@@ -64,7 +64,11 @@ export function Feedback(props: FeedbackProps) {
             <h1 className="text-xl sm:text-2xl font-bold">{title}</h1>
           )}
           {message.length > 0 && (
-            <p className="text-sm sm:text-base mt-2">{message}</p>
+            <div
+              className="text-sm sm:text-base mt-2"
+              dangerouslySetInnerHTML={{
+                __html: message,
+              }}></div>
           )}
         </div>
       </div>
