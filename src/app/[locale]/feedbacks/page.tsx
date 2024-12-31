@@ -8,7 +8,7 @@ async function getFeedbacks(): Promise<FeedbackType[]> {
     where: {
       active: true,
     },
-    orderBy: [{ pinned: "desc" }, { createdAt: "asc" }],
+    orderBy: [{ pinned: "desc" }, { createdAt: "desc" }],
   });
 }
 
