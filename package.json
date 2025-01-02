@@ -11,6 +11,7 @@
     "vercel-build": "prisma generate && prisma migrate deploy && next build"
   },
   "dependencies": {
+    "@gfmachado/use-typewriter": "^1.0.3",
     "@hookform/resolvers": "3.9.1",
     "@prisma/client": "6.1.0",
     "@radix-ui/react-avatar": "1.1.2",

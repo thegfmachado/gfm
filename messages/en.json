@@ -100,6 +100,10 @@
   },
   "projects": {
     "title": "Projects",
+    "useTypewriter": {
+      "title": "useTypewriter",
+      "description": "It is a React hook for creating typewriter effects in any React based application. This effect simulates text being typed out and optionally erased, mimicking the way a typewriter operates. It's lightweight, performant, and designed with TypeScript for strong type-checking and versatility."
+    },
     "lofiDino": {
       "title": "Lo-fi Dino",
       "description": "It is an application that lets you play any YouTube video while adding ambient sound effects, such as rain, birds, traffic, and more. Perfect for complementing your lofi experience or creating the ideal soundscape for focus, relaxation, or study.<br></br><br></br>This project was built with React.js + Vite.js using daisyUI as a component library and Tailwind CSS for styling."

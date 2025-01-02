@@ -1,4 +1,9 @@
 export const projectsInfo = {
+  useTypewriter: {
+    logo: "/images/projects/useTypewriter.png",
+    repo: "https://github.com/thegfmachado/use-typewriter",
+    site: "https://www.npmjs.com/package/@gfmachado/use-typewriter?activeTab=readme",
+  },
   lofiDino: {
     logo: "/images/projects/lofiDino.png",
     repo: "https://github.com/thegfmachado/lofi-dino",

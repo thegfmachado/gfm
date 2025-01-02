@@ -100,6 +100,10 @@
   },
   "projects": {
     "title": "Projetos",
+    "useTypewriter": {
+      "title": "useTypewriter",
+      "description": "É um hook React para criar efeitos de máquina de escrever em qualquer aplicação baseada em React. Este efeito simula o texto sendo digitado e, opcionalmente, apagado, imitando o funcionamento de uma máquina de escrever. É leve, eficiente e projetado com TypeScript para verificação de tipos robusta e versatilidade."
+    },
     "lofiDino": {
       "title": "Lo-fi Dino",
       "description": "É uma aplicação que permite reproduzir qualquer vídeo do YouTube enquanto adiciona efeitos sonoros ambientes, como chuva, pássaros, trânsito e muito mais. Perfeita para complementar sua experiência lofi ou criar a paisagem sonora ideal para foco, relaxamento ou estudo.<br></br><br></br>Esse projeto foi feito em React.js + Vite.js utilizando a daisyUI como biblioteca de componentes e o Tailwind CSS para estilização."
