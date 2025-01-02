@@ -24,6 +24,13 @@ export default function Projects() {
       site: projectsInfo.lofiDino.site,
     },
     {
+      title: translate("useTypewriter.title"),
+      bgImage: projectsInfo.useTypewriter.logo,
+      description: translate.rich("useTypewriter.description", convertTextToHTML),
+      repo: projectsInfo.useTypewriter.repo,
+      site: projectsInfo.useTypewriter.site,
+    },
+    {
       title: translate("whatDoesTheFoxHad.title"),
       bgImage: projectsInfo.whatDoesTheFoxHad.logo,
       description: translate.rich("whatDoesTheFoxHad.description", convertTextToHTML),
