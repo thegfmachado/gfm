@@ -17,6 +17,23 @@ export default function Home() {
 
   const experiences = React.useMemo(() => [
     {
+      company: "FIAP",
+      logo: "/images/companies/fiap.png",
+      startDate: translate("education.fiap.startDate"),
+      endDate: translate("education.fiap.endDate"),
+      roles: [
+        {
+          title: translate("education.fiap.course"),
+          description: translate.rich(
+            "education.fiap.description",
+            convertTextToHTML
+          ),
+          startDate: "",
+          endDate: "",
+        },
+      ],
+    },
+    {
       company: "Universidade Paulista",
       logo: "/images/companies/unip.png",
       startDate: translate("education.unip.startDate"),

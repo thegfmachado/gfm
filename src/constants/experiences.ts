@@ -4,6 +4,7 @@ export const companiesLogo = {
   philips: "/images/companies/philips.png",
   linkedIn: "/images/companies/linkedin.svg",
   instagram: "/images/companies/instagram.svg",
+  fiap: "/images/companies/fiap.png",
   senai: "/images/companies/senai.png",
   unip: "/images/companies/unip.png",
 };

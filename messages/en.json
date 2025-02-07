@@ -34,6 +34,12 @@
     },
     "education": {
       "title": "Academic background",
+      "fiap": {
+        "course": "Postgraduate degree in front-end engineering.",
+        "description": "<list><item>Develop complex front-end projects using the best development techniques and architectures;</item><item>Manage the software lifecycle for both web and mobile applications;</item><item>Apply advanced front-end resources integrated with back-end applications;</item><item>Use containers in local environments and major cloud platforms;</item><item>Develop applications using modern architectures such as microfrontend;</item><item>Understand and apply best deployment practices in the creation and maintenance of CI/CD pipelines.</item></list>",
+        "startDate": "March 2025",
+        "endDate": "December 2025"
+      },
       "unip": {
         "course": "Associate's degree in system analysis and development.",
         "description": "<list><item>Programming Fundamentals;</item><item>Object-Oriented Systems Analysis;</item><item>Databases;</item><item>Web Programming;</item><item>Software Engineering;</item><item>Others.</item></list>",
