@@ -34,6 +34,12 @@
     },
     "education": {
       "title": "Formação Acadêmica",
+      "fiap": {
+        "course": "Pós-graduação em Engenharia de Front-end",
+        "description": "<list><item>Desenvolver projetos front-end complexos utilizando as melhores técnicas e arquiteturas de desenvolvimento;</item><item>Gerenciar o ciclo de vida de softwares, sejam eles web ou mobile;</item><item>Aplicar recursos avançados de front-end integrados com aplicações back-end;</item><item>Utilizar containers em ambiente local e nas principais nuvens do mercado;</item><item>Desenvolver aplicações utilizando arquiteturas modernas, como microfrontend;</item><item>Compreender e aplicar as melhores práticas de deploy na criação e manutenção de esteiras CI/CD.</item></list>",
+        "startDate": "Março de 2025",
+        "endDate": "Dezembro de 2025"
+      },
       "unip": {
         "course": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
         "description": "<list><item>Fundamentos de Programação;</item><item>Análise de Sistemas Orientada a Objetos;</item><item>Bancos de Dados;</item><item>Programação Web;</item><item>Engenharia de Software;</item><item>Outros.</item></list>",
