@@ -14,6 +14,7 @@ import { Toaster } from "@/components/ui/sonner";
 
 import type { StaticPageProps } from "@/types/page";
 import { supportedLocales } from "@/i18n/request";
+import { myUserInfo } from "@/constants/general";
 
 type LocaleLayoutProps = StaticPageProps & {
   children: React.ReactNode;
@@ -54,7 +55,7 @@ export async function generateMetadata(props: LocaleLayoutProps): Promise<Metada
     authors: [
       {
         name: "Gabriel Machado",
-        url: "https://www.linkedin.com/in/gabriel-machado-0221ba15b/",
+        url: myUserInfo.linkedInURL,
       },
     ],
   };
