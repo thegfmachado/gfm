@@ -54,7 +54,7 @@ export async function generateMetadata(props: LocaleLayoutProps): Promise<Metada
     authors: [
       {
         name: "Gabriel Machado",
-        url: "https://www.linkedin.com/in/gabriel-ferreira-machado-0221ba15b",
+        url: "https://www.linkedin.com/in/gabriel-machado-0221ba15b/",
       },
     ],
   };
