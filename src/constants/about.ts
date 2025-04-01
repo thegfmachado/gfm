@@ -29,6 +29,7 @@ export const skillsLogo = {
 
   // Tools
   sass: "/images/skills/sass.svg",
+  styledComponents: "/images/skills/styled-components.png",
   git: "/images/skills/git.svg",
   github: "/images/skills/github.svg",
   docker: "/images/skills/docker.svg",
@@ -69,7 +70,7 @@ export const SKILL_GROUPS = (translate: (key: string) => string): SkillGroupProp
     title: translate("skills.tools"),
     skills: [
       { name: "SASS", image: skillsLogo.sass },
-      { name: "Tailwind CSS", image: skillsLogo.tailwind },
+      { name: "Styled Components", image: skillsLogo.styledComponents },
       { name: "Git", image: skillsLogo.git },
       { name: "GitHub", image: skillsLogo.github },
       { name: "Docker", image: skillsLogo.docker },
