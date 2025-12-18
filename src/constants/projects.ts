@@ -4,6 +4,11 @@ export const projectsInfo = {
     repo: "https://github.com/thegfmachado/use-typewriter",
     site: "https://www.npmjs.com/package/@gfmachado/use-typewriter?activeTab=readme",
   },
+  fintrack: {
+    logo: "/images/projects/fintrack.png",
+    repo: "https://github.com/thegfmachado/fiap-tech-challenge",
+    site: "https://fiap-tech-challenge-bytebank-web.vercel.app/",
+  },
   lofiDino: {
     logo: "/images/projects/lofiDino.png",
     repo: "https://github.com/thegfmachado/lofi-dino",

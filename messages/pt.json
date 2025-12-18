@@ -21,7 +21,7 @@
   "about": {
     "me": {
       "title": "Sobre mim",
-      "description": "Sou um desenvolvedor que gosta de criar soluções web funcionais e eficazes. Procuro desafios que possibilitem transformar ideias em projetos concretos e úteis, enquanto aprimoro minhas habilidades e aprendo novas ferramentas e tecnologias. Nas horas vagas, gosto de jogar videogame, assistir séries e filmes, sair e tocar guitarra.",
+      "description": "Sou Engenheiro de Software na Philips. Tenho mais de 7 anos de experiência em desenvolvimento de software, especializado em Engenharia Front-End. Trabalhei em várias empresas e, nessas experiências, construindo interfaces robustas, acessíveis e escaláveis, sempre combinando pensamento arquitetural com um forte foco em experiência do usuário, desempenho e qualidade do código. Nos últimos 2 anos, estive focado em construir ferramentas e ecossistemas que aceleram o desenvolvimento de produtos em escala, incluindo a criação de um Design System do zero, aplicado em interfaces utilizadas por centenas de milhares de usuários e milhões de interações mensais.",
       "funFact": "Curiosidade: Pergunte me qualquer coisa sobre Skyrim ou Elden Ring e eu provavelmente saberei responder 🧙‍♂️🎮.",
       "birthday": "28/07/1999"
     },
@@ -63,7 +63,7 @@
       "roles": {
         "senior": {
           "title": "Desenvolvedor de software sênior",
-          "description": "<list><item>Atuação como code owner no desenvolvimento e manutenção de um editor/framework WYSIWYG baseado em React, Typescript e SASS/CSS, garantindo qualidade técnica e suporte a outros desenvolvedores via Stack Enterprise;</item> <item>Desenvolvimento de um SaaS de teleconsulta utilizado por hospitais, cobrindo banco de dados (PostgreSQL), backend (Node.js), front-end (React) e integração com a API do Twilio;</item> <item>Desenvolvimento do novo design system do EMR da Philips, o qual serve de base para vários produtos, incluindo sistema Tasy;</item> <item>Responsável pelo componente de tabela do design system, alcançando alta performance com TanStack Table e otimizações avançadas em React;</item> <item>Implementação de testes automatizados (UI com Playwright e unitários com Jest) em todos os projetos;</item> <item>Realização de code reviews e participação em decisões técnicas estratégicas.</item></list>"
+          "description": "<list><item>Atuei como code owner na construção de ferramentas internas e ecossistemas front-end que aceleram a entrega de produtos em escala, incluindo um Design System criado do zero e um editor/framework WYSIWYG agora usado em interfaces que alcançam centenas de milhares de usuários e suportam milhões de interações mensais;</item><item>Desenvolvi uma plataforma SaaS de telemedicina do zero, utilizada por milhares de profissionais e suportando milhares de operações mensais, trabalhando de ponta a ponta com React, Node.js, PostgreSQL e APIs da Twilio;</item><item>Realizei melhorias significativas na arquitetura de desempenho do componente de tabela principal, reduzindo os tempos de carregamento em até 90% mesmo com grandes conjuntos de dados;</item><item>Projetei e implementei serviços front-end e camadas de infraestrutura reutilizáveis, incluindo um mecanismo genérico de composição de ícones SVG eliminando a necessidade de variações manuais pela equipe de design, uma camada de comunicação micro-frontend orientada a eventos permitindo elementos de UI flutuantes em aplicações isoladas, e um mecanismo de posicionamento do cursor para inputs de texto, entregando UX fluida e de alta precisão durante digitação, seleção e edição;</item><item>Implementei estratégias de testes automatizados em todos os projetos, incluindo testes de UI com Playwright e testes unitários com Jest, melhorando a confiabilidade e a confiança no deploy;</item><item>Ofereci suporte às equipes de engenharia por meio de code reviews, documentação técnica e tomada de decisões arquiteturais, garantindo escalabilidade a longo prazo e excelência no front-end.</item></list>"
         }
       }
     },
@@ -106,6 +106,10 @@
   },
   "projects": {
     "title": "Projetos",
+    "fintrack": {
+      "title": "Fintrack",
+      "description": "Um aplicativo de gerenciamento financeiro desenvolvido como um desafio de equipe de pós-graduação. As funcionalidades incluem autenticação de usuário, armazenamento S3 para anexos de transações, gráficos para análise financeira, arquitetura micro front-end, sistema de design personalizado documentado no Storybook, design web responsivo e um aplicativo móvel nativo planejado."
+    },
     "useTypewriter": {
       "title": "useTypewriter",
       "description": "É um hook React para criar efeitos de máquina de escrever em qualquer aplicação baseada em React. Este efeito simula o texto sendo digitado e, opcionalmente, apagado, imitando o funcionamento de uma máquina de escrever. É leve, eficiente e projetado com TypeScript para verificação de tipos robusta e versatilidade."
