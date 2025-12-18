@@ -1,5 +1,5 @@
 export type StaticPageProps = {
-  params: {
-    locale: "en" | "pt";
-  };
+  params: Promise<{
+    locale: string;
+  }>;
 }
