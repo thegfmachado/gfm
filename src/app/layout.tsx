@@ -1,11 +1,10 @@
 import * as React from "react";
-
 import "./globals.css";
 
-interface LayoutProps {
+interface RootLayoutProps {
   children: React.ReactNode;
 }
 
-export default function RootLayout({ children }: LayoutProps) {
-  return children;
+export default async function RootLayout({ children }: RootLayoutProps) {
+  return <>{children}</>;
 }

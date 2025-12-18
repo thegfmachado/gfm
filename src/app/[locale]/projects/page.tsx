@@ -17,6 +17,13 @@ export default function Projects() {
 
   const projects = React.useMemo(() => [
     {
+      title: translate("fintrack.title"),
+      bgImage: projectsInfo.fintrack.logo,
+      description: translate.rich("fintrack.description", convertTextToHTML),
+      repo: projectsInfo.fintrack.repo,
+      site: projectsInfo.fintrack.site,
+    },
+    {
       title: translate("lofiDino.title"),
       bgImage: projectsInfo.lofiDino.logo,
       description: translate.rich("lofiDino.description", convertTextToHTML),

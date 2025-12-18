@@ -55,7 +55,6 @@ export function Hero() {
             src="/images/profile.png"
             alt="Gabriel Machado"
             fetchPriority="high"
-            quality={100}
             fill
             sizes="100%"
           />

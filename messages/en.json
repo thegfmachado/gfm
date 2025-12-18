@@ -21,7 +21,7 @@
   "about": {
     "me": {
       "title": "About me",
-      "description": "I am a developer who enjoys creating functional and effective web solutions. I seek challenges that allow me to transform ideas into concrete and useful projects while improving my skills and learning new tools and technologies. In my free time, I enjoy playing video games, watching series and movies, going out, and playing guitar.",
+      "description": "I am a Software Engineer at Philips. I have 7+ years of experience in software development, specializing in Front-End Engineering. I have worked on multiple companies, and in those experiences, building robust, accessible, and scalable interfaces, always combining architectural thinking with a strong focus on user experience, performance, and code quality. In the last 2 years, I’ve been focused on building tools and ecosystems that accelerate product development at scale, including creating a Design System from scratch, applied across interfaces used by hundreds of thousands of users and millions of monthly interactions.",
       "funFact": "Fun fact: Ask me anything about Skyrim or Elden Ring and I will probably know the answer 🧙‍♂️🎮.",
       "birthday": "July 28, 1999"
     },
@@ -63,7 +63,7 @@
       "roles": {
         "senior": {
           "title": "Senior Software Developer",
-          "description": "<list><item>Served as a code owner in the development and maintenance of a WYSIWYG editor/framework based on React, TypeScript, and SASS/CSS, ensuring technical quality and providing support to other developers via Philips' Stack Enterprise;</item> <item>Developed a telemedicine SaaS used by hospitals, covering database (PostgreSQL), backend (Node.js), frontend (React), and integration with the Twilio API;</item> <item>Developed the new EMR design system at Philips, which serves as the foundation for various products, including the Tasy system;</item> <item>Responsible for the table component in the design system, achieving high performance with TanStack Table and advanced optimizations in React;</item> <item>Implemented automated tests (UI with Playwright and unit tests with Jest) in all projects;</item> <item>Conducted code reviews and participated in strategic technical decision-making.</item></list>"
+          "description": "<list><item>Acted as a code owner for internal tools and front-end ecosystems that accelerate product delivery at scale, including a Design System built from scratch and a WYSIWYG editor/framework now used across interfaces reaching hundreds of thousands of users and supporting millions of monthly interactions;</item><item>Built a telemedicine SaaS platform from the ground up, used by thousands of clinicians and supporting thousands of monthly operations, working end-to-end across React, Node.js, PostgreSQL, and Twilio APIs;</item><item>Delivered major performance architecture improvements to the core table component, reducing load times by up to 90% even under large datasets;</item><item>Designed and implemented reusable front-end services and infrastructure layers, including a generic SVG icon composition engine eliminating the need for manual icon variations by the design team, an event-driven micro-frontend communication layer enabling floating UI elements across isolated applications, and a caret-positioning engine for text inputs, delivering fluid, high-precision UX during typing, selection, and editing workflows;</item><item>Implemented automated testing strategies across projects, including UI tests with Playwright and unit tests with Jest, improving reliability and deployment confidence;</item><item>Supported engineering teams through code reviews, technical documentation, and architectural decision-making, ensuring long-term scalability and front-end excellence.</item></list>"
         }
       }
     },
@@ -106,6 +106,10 @@
   },
   "projects": {
     "title": "Projects",
+    "fintrack": {
+      "title": "Fintrack",
+      "description": "A financial management application developed as a postgraduate team challenge. Features include user authentication, S3 storage for transaction attachments, graphs for financial analysis, micro front-end architecture, custom design system documented in Storybook, responsive web design, and a planned native mobile app."
+    },
     "useTypewriter": {
       "title": "useTypewriter",
       "description": "It is a React hook for creating typewriter effects in any React based application. This effect simulates text being typed out and optionally erased, mimicking the way a typewriter operates. It's lightweight, performant, and designed with TypeScript for strong type-checking and versatility."
